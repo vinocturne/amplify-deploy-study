@@ -1,6 +1,8 @@
 import "./../app/app.css";
 import "@aws-amplify/ui-react/styles.css";
 
+export const dynamic = 'force-dynamic';
+
 async function getData() {
     return await fetch('https://jsonplaceholder.typicode.com/todos')
         .then(response => response.json())
