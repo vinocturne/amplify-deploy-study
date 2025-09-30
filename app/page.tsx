@@ -1,6 +1,6 @@
 import "./../app/app.css";
-import "@aws-amplify/ui-react/styles.css";
 
+// SSR 배포 위해 동적 렌더링 선언
 export const dynamic = 'force-dynamic';
 
 async function getData() {
