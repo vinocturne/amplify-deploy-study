@@ -15,6 +15,7 @@ export default async function App() {
     console.log(data)
   return (
     <main>
+        <span>빌드 최적화 테스트 1</span>
         {
             data.map((item: any) => (
                 <div key={item.id} style={{ padding: 8, display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
